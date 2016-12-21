@@ -12,7 +12,7 @@ public abstract class BaseBuilder<T> {
     }
 
     /**
-     * Pass back the created object and prevent class from modifying it further
+     * Pass back the built up object and prevent class from modifying it further
      * @return
      */
     public T build() {
