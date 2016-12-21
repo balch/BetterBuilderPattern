@@ -10,9 +10,6 @@ this version the base object is instantiated in the Builder constructor and simp
 (and discarded) from the `build()` function. This pattern allows for efficiently creating an
 immutable object while eliminating one of my pet peeves of duplicate code!
 
-The only downside I see is that the Builder must maintain state in a member variable. Fortunately
-this is not an issue given the typical short-lived usage of the Builder pattern.
-
 Here&apos;s an implementation where the Builder pattern is encapsulated in a BaseBuilder class.
 
 **BaseBuilder.java**
