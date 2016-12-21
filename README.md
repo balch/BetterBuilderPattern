@@ -21,8 +21,7 @@ public abstract class BaseBuilder<T> {
     protected T data;
 
     /**
-     * Constructor that allows for data object in creating using parameters passed into
-     * the base class constructor
+     * Constructor that accepts instantiated data object.
      * @param data
      */
     public BaseBuilder(T data) {
